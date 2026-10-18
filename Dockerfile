@@ -1,6 +1,8 @@
 # small official Python image
 FROM python:3.12.7-slim
 
+LABEL org.opencontainers.image.source=https://github.com/mameeed/su-maio-group-ac-3
+
 WORKDIR /app
 
 COPY requirements.txt .
